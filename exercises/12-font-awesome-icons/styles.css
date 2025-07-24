@@ -2,3 +2,61 @@ li {
 	font-size: 2.5rem;
 	list-style: none;
 }
+.fa-camera-retro {
+	font-size: 2.1rem;
+	margin-right: 10px;
+	color: red;
+}
+.fa-code {
+	font-size: 2.1rem;
+	margin-right: 10px;
+	color: blue;
+}
+.fa-mug-hot {
+	font-size: 2.1rem;
+	margin-right: 10px;
+	color: brown;
+}
+.fa-sun {
+	font-size: 2.1rem;
+	margin-right: 10px;
+	color: yellow;
+}
+
+.pulse {
+	animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+.fa-spin {
+	animation: fa-spin 2s infinite linear;
+}
+@keyframes fa-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+.fa-beat:hover {
+	animation: fa-beat 1.5s infinite;
+}
+@keyframes beat {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+	}
+}

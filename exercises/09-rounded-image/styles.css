@@ -3,4 +3,11 @@ body {
 }
 .rounded {
 	border-radius: 100%;
+	width: 1000px;
+	height: 1000px;
+}
+
+img {
+	object-fit: cover;
+	object-position: top;
 }
